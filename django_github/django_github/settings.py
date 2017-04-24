@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'm@d*kns_)p_9dkz#(=(a+hu#@wzuj$ia#n!b)jsh8&#87*i0yh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://mos.pythonanywhere.com']
 
 
 # Application definition
